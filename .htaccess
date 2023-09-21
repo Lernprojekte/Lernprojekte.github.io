@@ -1,2 +1,0 @@
-Header always set X-Content-Type-Options "nosniff"
-Header always set Cache-Control "no-store"
