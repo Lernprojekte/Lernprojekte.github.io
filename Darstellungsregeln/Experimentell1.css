@@ -1,5 +1,5 @@
     @font-face {
-      font-family: 'LondrinaOutline-Regular';
+      font-family: 'Londrina Outline';
       src: url('https://Lernprojekte.github.io/Schriftarten/LondrinaOutline-Regular.ttf') format('truetype');
     }
 
@@ -12,5 +12,5 @@
     }
 
     h1, h2, h3 {
-      font-family: 'LondrinaOutline-Regular', sans-serif;
+      font-family: 'Londrina Outline', sans-serif;
     }
