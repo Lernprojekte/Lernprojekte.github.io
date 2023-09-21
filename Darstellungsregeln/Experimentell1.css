@@ -8,11 +8,11 @@
 }
 
 @font-face {
-  font-family: 'Dongle';
+  font-family: 'Dongle Light';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-display: swap;
-  src: url(https://Lernprojekte.github.io/Schriftarten/Dongle-Regular.ttf) format('ttf');
+  src: url(https://Lernprojekte.github.io/Schriftarten/Dongle-Light.ttf) format('ttf');
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   padding: 20px; /* Fügt Abstand zwischen dem Inhalt und dem Rand hinzu */
   background-color: #000000;
   color: #ddbb88;
-  font-family: 'Dongle', sans-serif;
+  font-family: 'Dongle Light', sans-serif;
 }
 
 h1, h2, h3 {
