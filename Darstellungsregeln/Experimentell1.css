@@ -9,10 +9,6 @@
 
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
-
 body {
   max-width: 580px; /* Maximale Breite des Inhalts */
   margin: 0 auto; /* Zentriert den Inhalt horizontal */
