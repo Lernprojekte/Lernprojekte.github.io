@@ -31,9 +31,13 @@ body {
   padding: 20px; /* Fügt Abstand zwischen dem Inhalt und dem Rand hinzu */
   background-color: #000000;
   color: #ddbb88;
-  font-family: 'Kavivanar'; /*, cursive;*/
+  font-family: 'Kavivanar';
 }
 
 h1, h2, h3 {
+  font-family: 'Londrina Shadow', sans-serif;
+}
+
+h2, h3 {
   font-family: 'Londrina Outline', sans-serif;
 }
