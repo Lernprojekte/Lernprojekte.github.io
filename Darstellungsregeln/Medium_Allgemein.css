@@ -38,10 +38,12 @@ body {
 
 h1 {
   font-family: 'Londrina Shadow', sans-serif;
+  color: #88bb88;
 }
 
 h2, h3 {
   font-family: 'Londrina Outline', sans-serif;
+  color: #8888bb;
 }
 
 
