@@ -1,4 +1,4 @@
-/* Darstellungsregeln für große Bildschirme                              */
+/* Darstellungsregeln für kleine, senkrechte Bildschirme                 */
 @media screen
 and (max-width: 511px)
 and (max-height: 959px)
