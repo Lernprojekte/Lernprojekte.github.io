@@ -4,7 +4,7 @@ and (max-width: 511px)
 and (orientation: portrait) {
   /* CSS-Regeln für Desktop-Ansicht hier */
   h1, h2, h3 {
-    color: #dd88bb;
+
   }
 }
 
