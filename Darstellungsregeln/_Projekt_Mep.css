@@ -1,1 +1,10 @@
+/* Projektspezifische Darstellungsregeln für das Projekt Mep         */
+body {
+  max-width: 700px; /* Maximale Breite des Inhalts */
+  margin: 0 auto; /* Zentriert den Inhalt horizontal */
+  padding: 20px; /* Fügt Abstand zwischen dem Inhalt und dem Rand hinzu */
+}
 
+
+
+/* ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~ */
