@@ -1,1 +1,29 @@
+/* Darstellungsregeln für die Ausgabe auf per Drucker                */ 
+@media print {
+  @page {
+    size: A4;
+    margin: 0.6cm;
+  }
 
+  @page :left {
+    margin-right: 1.6cm;
+  }
+
+  @page :right {
+    margin-left: 1.6cm;
+  } 
+
+  @page :first {
+        
+  }
+
+  body {
+    background-color: transparent;
+    max-width: 100%;
+    color: black;
+  }
+}
+
+
+
+/* ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~ */
