@@ -1,5 +1,8 @@
 /* Darstellungsregeln für große Bildschirme                              */
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen
+and (max-width: 960px)
+and (max-height: 512px)
+and (orientation: landscape) {
   /* CSS-Regeln für Desktop-Ansicht hier */
   h1, h2, h3 {
     color: #bb88dd;
