@@ -1,1 +1,11 @@
+/* Darstellungsregeln für große Bildschirme                          */
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  /* CSS-Regeln für Desktop-Ansicht hier */
+  h1, h2, h3 {
+    color: #88ddbb;
+  }
+}
 
+
+
+/* ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~ */
