@@ -1,7 +1,7 @@
 /* Darstellungsregeln für große Bildschirme                              */
 @media screen
-and (max-width: 960px)
-and (max-height: 512px)
+and (max-width: 959px)
+and (max-height: 511px)
 and (orientation: landscape) {
   /* CSS-Regeln für Desktop-Ansicht hier */
   h1, h2, h3 {
