@@ -1,5 +1,7 @@
-/* Darstellungsregeln für große Bildschirme                              */
-@media screen and (min-width: 768px) and (orientation: portrait) {
+/* Darstellungsregeln für große, senkrechte Anzeigen                     */
+@media screen
+and (min-width: 512px)
+and (orientation: portrait) {
   /* CSS-Regeln für Desktop-Ansicht hier */
   h1, h2, h3 {
     color: #88bbdd;
