@@ -1,4 +1,4 @@
-/* Darstellungsregeln für die Ausgabe auf per Drucker                */ 
+/* Darstellungsregeln für die Ausgabe auf per Drucker                    */
 @media print {
   @page {
     size: A4;
@@ -26,4 +26,4 @@
 
 
 
-/* ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~ */
+/*   ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~   */
