@@ -3,7 +3,7 @@
 and (max-height: 511px)
 and (orientation: landscape) {
   /* CSS-Regeln für Desktop-Ansicht hier */
-  h1, h2, h3 {
+  body {
 
   }
 }
