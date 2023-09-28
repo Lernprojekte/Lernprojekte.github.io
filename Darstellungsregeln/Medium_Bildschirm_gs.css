@@ -3,8 +3,11 @@
 and (min-width: 512px)
 and (orientation: portrait) {
   /* CSS-Regeln für Desktop-Ansicht hier */
-  h1, h2, h3 {
-
+  body {
+    max-width: 700px;
+    margin-left: 136px;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 }
 
