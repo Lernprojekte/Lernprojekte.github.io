@@ -28,4 +28,21 @@
 
 
 
+/* Allgemeine Darstellungsregeln                                     */
+body {
+  background-color: #000000;
+  color: #ddbb88;
+  font-family: 'Kavivanar';
+}
+
+h1 {
+  font-family: 'Londrina Shadow', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Londrina Outline', sans-serif;
+}
+
+
+
 /* ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~ */
