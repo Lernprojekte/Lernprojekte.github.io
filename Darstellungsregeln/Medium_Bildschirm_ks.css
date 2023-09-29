@@ -4,9 +4,7 @@ and (max-width: 511px)
 and (orientation: portrait) {
   /* CSS-Regeln für Desktop-Ansicht hier */
 body {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 36;
     margin-top: 150px;
     margin-bottom: 150px;
   }
