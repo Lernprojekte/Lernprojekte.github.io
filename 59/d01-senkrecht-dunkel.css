@@ -63,5 +63,14 @@ h2, h4 {
   height: 50px;
   top: 50px;
   left: 0px;
+  display: none;
+}
+
+#InhaltsangabeRahmen {
+  
+}
+
+#InhaltsangabeListe {
+
 }
 /*   ~ ~ ~~ ~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~ ~~~~~ ~~~ ~~ ~ ~   */
