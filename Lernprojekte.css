@@ -144,7 +144,7 @@ body.hell #Infobereich > div {
 
 @media (max-width: 896px) {
   #Infobereich > #HellDunkel {
-    margin: 0px 0px 0px 12px;
+    margin: 6px 12px;
   }
 }
 
