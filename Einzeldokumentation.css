@@ -1,0 +1,103 @@
+﻿@import url('Schriftarten-und-Farben.css');
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+body {
+  padding: 16px 10px;
+  margin: 0px auto;
+  max-width: 819px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;  
+}
+
+
+
+
+
+body > #Kopfzeile {
+  padding: 6px 16px 2px 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+#Kopfzeile > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  padding: 0px;
+}
+
+#Kopfzeile #Titelbild {
+  width: 48px;
+  height: 48px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+#Inhaltsbereich {
+  padding: 10px 6px;
+}
+
+
+
+
+
+#Fußzeile {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+
+
+
+
+#Projektliste {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+#Projektliste > a {
+  margin: 4px 8px 6px 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}

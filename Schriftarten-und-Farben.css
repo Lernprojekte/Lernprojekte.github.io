@@ -1,0 +1,351 @@
+/* Paytone One*/
+/* latin-ext */
+@font-face {
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Paytone-One-Latin-Ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Paytone-One-Latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+/* Patrick Hand */
+/* latin-ext */
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Patrick-Hand-Latin-Ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Patrick-Hand-Latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+/* Lexend*/
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(Lexend-Latin-Ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(Lexend-Latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+/* Quicksand */
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(Quicksand-Latin-Ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(Quicksand-Latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+:root {
+  --dunkel-Hintergrundfarbe-Gesamtdokument: rgba(1, 4, 9, 1);
+  --hell-Hintergrundfarbe-Gesamtdokument: rgba(155, 157, 144, 1);
+
+  --dunkel-Hintergrundfarbe-Randbereich: rgba(13, 17, 23, 1);
+  --hell-Hintergrundfarbe-Randbereich: rgba(139, 141, 128, 1);
+  
+  --dunkel-RahmenfarbeA: rgba(49, 81, 100, 0.38)/*rgba(171, 102, 16, 0.38)*/;
+  --hell-RahmenfarbeA: rgba(63, 121, 144, 0.38);
+
+  --dunkel-Vordergrundfarbe-Titelzeile: rgba(60, 108, 123, 1);
+  --hell-Vordergrundfarbe-Titelzeile: rgba(64, 90, 74, 1);
+  --dunkel-Vordergrundfarbe-Titelzeile-hover: rgba(138, 74, 54, 1);
+  --hell-Vordergrundfarbe-Titelzeile-hover: rgba(133, 69, 59, 1);
+
+  --dunkel-Vordergrundfarbe-Gesamtdokument: rgba(106, 112, 100, 1);
+  --hell-Vordergrundfarbe-Gesamtdokument: rgba(54, 60, 67, 1);
+  
+  --dunkel-Vordergrundfarbe-Inhaltsverzeichnis: rgba(90, 128, 122, 1);
+  --dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover: rgba(161, 104, 79, 1);
+  --hell-Vordergrundfarbe-Inhaltsverzeichnis: rgba(49, 72, 81, 1);
+  --hell-Vordergrundfarbe-Inhaltsverzeichnis-hover: rgba(121, 49, 25, 1);
+
+  --dunkel-Vordergrundfarbe-klein: rgba(121, 74, 54, 1);
+  --hell-Vordergrundfarbe-klein: rgba(100, 50, 62, 1);
+  
+  /* Verwendung: var(--dunkel-Hintergrundfarbe-Hauptinhalte, #ff6347); */
+}
+
+
+
+
+
+.klein {
+  font-size: small;
+  font-weight: bold;
+  color: var(--dunkel-Vordergrundfarbe-klein, #ff6347);
+}
+
+body.hell .klein {
+  color: var(--hell-Vordergrundfarbe-klein, #ff6347);
+}
+
+
+
+
+
+body {
+  background-color: var(--dunkel-Hintergrundfarbe-Gesamtdokument, #ff6347);
+  color: var(--dunkel-Vordergrundfarbe-Gesamtdokument, #ff6347);
+}
+
+body.hell {
+  background-color: var(--hell-Hintergrundfarbe-Gesamtdokument, #ff6347);
+  color: var(--hell-Vordergrundfarbe-Gesamtdokument, #ff6347);
+}
+
+
+
+
+
+body > #Randbereich {
+  background-image: linear-gradient(
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) 78%,
+    transparent 100%);
+  border-radius: 8px;
+  border: 0.5px dashed var(--dunkel-RahmenfarbeA, #ff6347);
+}
+
+body.hell > #Randbereich {
+  background-image: linear-gradient(
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 78%,
+    transparent 100%);
+  border: 0.5px dashed var(--hell-RahmenfarbeA, #ff6347);
+}
+
+
+
+
+
+body > #Kopfzeile {
+  background-image: linear-gradient(
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) 0%,
+    transparent 100%);
+  border-radius: 8px;
+  border: 0.5px dashed var(--dunkel-RahmenfarbeA, #ff6347);
+}
+
+body.hell > #Kopfzeile {
+  background-image: linear-gradient(
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 0%,
+    transparent 100%);
+  border: 0.5px dashed var(--hell-RahmenfarbeA, #ff6347);
+}
+
+
+
+
+
+body > #Fußzeile {
+  background-image: linear-gradient(
+    transparent 0%,
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) 100%);
+  border-radius: 8px;
+  border: 0.5px dashed var(--dunkel-RahmenfarbeA, #ff6347);
+  font-family: 'Patrick Hand';
+  font-weight: 400;
+}
+
+body.hell > #Fußzeile {
+  background-image: linear-gradient(
+    transparent 0%,
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 100%);
+  border: 0.5px dashed var(--hell-RahmenfarbeA, #ff6347);
+}
+
+
+
+
+
+#Projektliste > a,
+#Infobereich > div {
+  font-family: 'Patrick Hand';
+  text-decoration: none;
+  color: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
+  text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
+  cursor: pointer;
+}
+
+body.hell #Projektliste > a,
+body.hell #Infobereich > div {
+  color: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
+  text-shadow: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
+}
+
+#Projektliste > a:hover, #Projektliste > a:active,
+#Infobereich > div:hover, #Infobereich > div:active {
+  font-weight: bolder;
+  font-style: italic;
+  color: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347);
+  text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 2px;
+}
+
+body.hell #Projektliste > a:hover, body.hell #Projektliste > a:active,
+body.hell #Infobereich > div:hover, body.hell #Infobereich > div:active {
+  color: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347);
+  text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 2px;
+}
+
+
+
+
+
+#Titelbild {
+  border-radius: 50%;
+}
+
+
+
+
+
+#Titelzeile {
+  text-decoration: none;
+  font-family: 'Paytone One';
+  font-size: larger;
+  color: var(--dunkel-Vordergrundfarbe-Titelzeile, #ff6347);
+}
+#Titelzeile:hover, #Titelzeile:active {
+  color: var(--dunkel-Vordergrundfarbe-Titelzeile-hover, #ff6347);
+}
+
+body.hell #Titelzeile {
+  color: var(--hell-Vordergrundfarbe-Titelzeile, #ff6347);
+}
+body.hell #Titelzeile:hover, body.hell #Titelzeile:active {
+  color: var(--hell-Vordergrundfarbe-Titelzeile-hover, #ff6347);
+}
+
+
+
+
+
+body > #Inhaltsbereich {
+  font-family: 'Quicksand';
+  font-weight: 450;
+  text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 1px;
+  border: 0.5px dashed var(--dunkel-RahmenfarbeA, #ff6347);
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) -23%,
+    transparent 15%,
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) 50%,
+    transparent 85%,
+    var(--dunkel-Hintergrundfarbe-Randbereich, #ff6347) 123%);
+}
+
+body.hell > #Inhaltsbereich {
+  text-shadow: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 1px;
+  border: 0.5px dashed var(--hell-RahmenfarbeA, #ff6347);
+  background-image: linear-gradient(
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) -23%,
+    transparent 15%,
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 50%,
+    transparent 85%,
+    var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 123%);
+}
+
+
+
+
+
+body > #Inhaltsbereich > h1 {
+  text-decoration: none;
+  font-family: 'Paytone One';
+  color: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
+  text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+body.hell > #Inhaltsbereich > h1 {
+  color: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
+  text-shadow: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
+}
+
+
+
+
+
+body > #Inhaltsbereich > h2,
+body > #Inhaltsbereich > h3,
+body > #Inhaltsbereich > h4,
+body > #Inhaltsbereich > h5,
+body > #Inhaltsbereich > h6 {
+  text-decoration: none;
+  font-family: 'Lexend';
+  margin-bottom: 5px;
+}
+
+body > #Inhaltsbereich > p {
+  margin-bottom: 3px;
+}
+
+body > #Inhaltsbereich > ul {
+  list-style-position: inside;
+  list-style-type: disclosure-closed;
+  list-style-image: none;
+  padding-right: 5%;
+  padding-left: 1%;
+  margin-bottom: 5px;
+}
+
+body > #Inhaltsbereich > ul > li {
+  margin-bottom: 3px;
+}
