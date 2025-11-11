@@ -1,12 +1,27 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lernprojekte</title>
-</head>
-<body>
-  <h1>Lernprojekte</h1>
-  <p>In Bearbeitung...</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Lernprojekte.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script defer src="Lernprojekteliste.js"></script>
+    <script defer src="Lernprojekte.js"></script>
+    <title>Lern- und Übungsprojekte</title>
+  </head>
+
+  <body>
+    <div id="Randbereich">
+      <img id="Titelbild" src="Titelbild.jpg" />
+      <a id="Titelzeile" href="https://github.com/Lernprojekte">Lernprojekte</a>
+      <div id="Infobereich">
+        <img
+         id="HellDunkel"
+         src="Sonne-Mond.svg"
+         style="width: 32px; height: 32px; cursor: pointer;"
+         onclick="document.body.classList.toggle('hell');" />
+      </div>
+    </div>
+    <div id="Inhaltsbereich"></div>
+  </body>
 </html>
