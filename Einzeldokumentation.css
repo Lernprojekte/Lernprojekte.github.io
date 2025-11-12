@@ -1,4 +1,4 @@
-﻿@import url('Schriftarten-und-Farben.css');
+﻿@import url('Schriftarten-Farben-Inhalte.css');
 
 
 
@@ -76,6 +76,11 @@ body > #Kopfzeile {
   width: 100%;
   text-align: center;
   padding: 10px 0px 10px 0px;
+}
+
+#Fußzeile > .Inhaltsverzeichniseintrag {
+  display: inline-block;
+  margin: 0px 6px 2px 6px;
 }
 
 
