@@ -1,4 +1,4 @@
-@import url('Schriftarten-und-Farben.css');
+@import url('Schriftarten-Farben-Inhalte.css');
 
 
 
@@ -130,10 +130,6 @@ body > #Inhaltsbereich {
   }
 }
 
-body.hell #Infobereich > div {
-
-}
-
 
 
 
@@ -147,8 +143,3 @@ body.hell #Infobereich > div {
     margin: 6px 12px;
   }
 }
-
-
-
-
-
