@@ -127,20 +127,6 @@
 
 
 
-.klein {
-  font-size: small;
-  font-weight: bold;
-  color: var(--dunkel-Vordergrundfarbe-klein, #ff6347);
-}
-
-body.hell .klein {
-  color: var(--hell-Vordergrundfarbe-klein, #ff6347);
-}
-
-
-
-
-
 body {
   background-color: var(--dunkel-Hintergrundfarbe-Gesamtdokument, #ff6347);
   color: var(--dunkel-Vordergrundfarbe-Gesamtdokument, #ff6347);
@@ -200,7 +186,9 @@ body > #Fußzeile {
   border-radius: 8px;
   border: 0.5px dashed var(--dunkel-RahmenfarbeA, #ff6347);
   font-family: 'Patrick Hand';
-  font-weight: 400;
+  font-size: small;
+  font-weight: bold;
+  color: var(--dunkel-Vordergrundfarbe-klein, #ff6347);
 }
 
 body.hell > #Fußzeile {
@@ -208,37 +196,35 @@ body.hell > #Fußzeile {
     transparent 0%,
     var(--hell-Hintergrundfarbe-Randbereich, #ff6347) 100%);
   border: 0.5px dashed var(--hell-RahmenfarbeA, #ff6347);
+  color: var(--hell-Vordergrundfarbe-klein, #ff6347);
 }
 
 
 
 
 
-#Projektliste > a,
-#Infobereich > div {
+.Inhaltsverzeichniseintrag {
   font-family: 'Patrick Hand';
+  font-size: small;
   text-decoration: none;
   color: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
   text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
   cursor: pointer;
 }
 
-body.hell #Projektliste > a,
-body.hell #Infobereich > div {
+body.hell .Inhaltsverzeichniseintrag {
   color: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347);
   text-shadow: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347) 0px 0px 1px;
 }
 
-#Projektliste > a:hover, #Projektliste > a:active,
-#Infobereich > div:hover, #Infobereich > div:active {
-  font-weight: bolder;
+.Inhaltsverzeichniseintrag:hover {
+  font-weight: bold;
   font-style: italic;
   color: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347);
   text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 2px;
 }
 
-body.hell #Projektliste > a:hover, body.hell #Projektliste > a:active,
-body.hell #Infobereich > div:hover, body.hell #Infobereich > div:active {
+body.hell .Inhaltsverzeichniseintrag:hover {
   color: var(--hell-Vordergrundfarbe-Inhaltsverzeichnis-hover, #ff6347);
   text-shadow: var(--dunkel-Vordergrundfarbe-Inhaltsverzeichnis, #ff6347) 0px 0px 2px;
 }
@@ -261,14 +247,14 @@ body.hell #Infobereich > div:hover, body.hell #Infobereich > div:active {
   font-size: larger;
   color: var(--dunkel-Vordergrundfarbe-Titelzeile, #ff6347);
 }
-#Titelzeile:hover, #Titelzeile:active {
+#Titelzeile:hover {
   color: var(--dunkel-Vordergrundfarbe-Titelzeile-hover, #ff6347);
 }
 
 body.hell #Titelzeile {
   color: var(--hell-Vordergrundfarbe-Titelzeile, #ff6347);
 }
-body.hell #Titelzeile:hover, body.hell #Titelzeile:active {
+body.hell #Titelzeile:hover {
   color: var(--hell-Vordergrundfarbe-Titelzeile-hover, #ff6347);
 }
 
