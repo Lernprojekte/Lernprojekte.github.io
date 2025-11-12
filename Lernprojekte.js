@@ -39,8 +39,7 @@ async function LadeProjektdokumentation(Projektdokumentation) {
     Zielelement.innerHTML = '<p style="color: red;">Die gewünschte Dokumentation konnte nicht geladen werden.</p>';
   }
 
-  // Überschriften durchlaufen und Inhaltsverzeichnis erstellen
-  // Springe zum Anfang von "Inhaltsbereich"
+  // Evtl. Überschriften durchlaufen und Inhaltsverzeichnis erstellen..?
   // `this.id` bzw. `event.target.id`, um auf die ID des angeklickten Elements in der onclick-Funktion zuzugreifen.
 }
 
@@ -61,6 +60,7 @@ async function LadeProjektdokumentation(Projektdokumentation) {
     const div = document.createElement('div');
     div.id = `${Lernprojekt.Kürzel}`;
     div.textContent = `${Lernprojekt.Name}`;
+    div.classList.add('Inhaltsverzeichniseintrag');
     div.addEventListener('click', async () => {await LadeProjektdokumentation(Lernprojekt.Projektdokumentation);});
     div.title = `${Lernprojekt.Kurzbeschreibung}`;
     Infobereich.insertBefore(div, HellDunkel);
@@ -68,4 +68,3 @@ async function LadeProjektdokumentation(Projektdokumentation) {
   
   await LadeProjektdokumentation('./Lernprojekte/index.html');
 })();
-
